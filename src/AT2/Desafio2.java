@@ -21,6 +21,7 @@ public class Desafio2 {
         String[] palavras = frase02.split(" ");
         for (String palavra : palavras){
             System.out.println(palavra);
+
         }
     }
 }

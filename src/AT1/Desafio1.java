@@ -29,5 +29,43 @@ public class Desafio1 {
         System.out.println("CPF: " + cpf);
         System.out.println();
 
+        ///Do PDF//
+
+
+        System.out.println("PDF operações aritméticas diferentes");
+
+
+        int minhaIdade = 38;
+        boolean casado = false;
+        char masculino = 'M';
+        long varios = 132456789L;
+
+        System.out.println(minhaIdade);
+        System.out.println(casado);
+        System.out.println(masculino);
+        System.out.println(varios);
+
+
+
+        double valor1;
+        valor1 = 24.48;
+        double valor2;
+        valor2 = 68.96;
+
+        double resultado1 = valor1 + valor2;
+        double resultado2 = valor1 - valor2;
+        double resultado3 = valor1 * valor2;
+        double resultado4 = valor1 / valor2;
+
+        System.out.println("Valor do Resultado " + resultado1);
+        System.out.println("Valor do Resultado " + resultado2);
+        System.out.println("Valor do Resultado " + resultado3);
+        System.out.println("Valor do Resultado " + resultado4);
+
+
+
+
+
+
     }
 }
