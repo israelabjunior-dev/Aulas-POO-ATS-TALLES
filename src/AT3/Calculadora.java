@@ -2,16 +2,19 @@ package AT3;
 
 public class Calculadora {
 
-    int numero1;
-    int numero2;
-    int total;
+    int valor1 = 68;
+    int valor2 = 48;
+    int resultado;
 
-    void somar() { total = numero1 + numero2;
-        total = numero1 + numero2;
+    void somar() {
+        resultado = valor1 + valor2;
+        System.out.println("O resultado é: " + resultado);
     }
-    void somarValores() {
 
+    public static void main(String[] args) {
+
+        Calculadora calculadora = new Calculadora();
+
+        calculadora.somar();
     }
 }
-
-
